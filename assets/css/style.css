@@ -480,6 +480,10 @@ section {
   float: left;
 }
 
+.about-header {
+  padding-bottom: 20px;
+}
+
 .about .content .count-box span {
   font-size: 36px;
   line-height: 20px;
@@ -566,7 +570,11 @@ section {
 }
 
 .about .social-links {
-  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.about-div {
+  padding-top: 20px;
 }
 
 .about .social-links a {
@@ -1075,7 +1083,7 @@ section {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #d43076;
 }
 
@@ -1088,6 +1096,7 @@ section {
 
 .contact .social-links {
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .contact .social-links a {
@@ -1150,10 +1159,8 @@ section {
 
 .contact .info-details {
   display: flex;
-}
-
-.contact .col-lg-3.col-md-4 {
-  width: 100wv;
+  padding-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .contact .info i {
@@ -1240,6 +1247,10 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #dd5a92;
+}
+
+.phone-div {
+  width: 150px;
 }
 
 @-webkit-keyframes animate-loading {
