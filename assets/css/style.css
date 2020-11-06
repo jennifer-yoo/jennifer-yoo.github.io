@@ -534,6 +534,62 @@ section {
   }
 }
 
+.about .social-links .medium-icon {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  display: inline-block;
+  background: #fff;
+
+  color: #d43076;
+  line-height: 1;
+}
+
+.about .social-links .github-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+  transition: 0.3s;
+  display: inline-block;
+  color: #d43076;
+  background: #fff;
+
+  border: 1px solid #ffffff;
+  line-height: 1;
+}
+
+.github-icon:hover {
+  background: #d43076;
+  /* color: #fff; */
+
+}
+
+.about .social-links {
+  padding-bottom: 20px;
+}
+
+.about .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  color: #d43076;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  border: 1px solid #d43076;
+}
+
+.about .social-links a:hover {
+  background: #d43076;
+  color: #fff;
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -1050,6 +1106,37 @@ section {
   border: 1px solid #d43076;
 }
 
+.contact .social-links .medium-icon {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 2px;
+  transition: 0.3s;
+  display: inline-block;
+  background: #fff;
+
+  color: #d43076;
+  line-height: 1;
+}
+
+.contact .social-links .github-icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+  transition: 0.3s;
+  display: inline-block;
+  color: #d43076;
+  background: #fff;
+
+  border: 1px solid #ffffff;
+  line-height: 1;
+}
+
+.github-icon:hover {
+  background: #d43076;
+  /* color: #fff; */
+
+}
+
 .contact .social-links a:hover {
   background: #d43076;
   color: #fff;
@@ -1057,6 +1144,16 @@ section {
 
 .contact .info {
   color: #5a656e;
+  display: flex;
+  width: 100wv;
+}
+
+.contact .info-details {
+  display: flex;
+}
+
+.contact .col-lg-3.col-md-4 {
+  width: 100wv;
 }
 
 .contact .info i {
