@@ -1077,9 +1077,9 @@ section {
 # Contact
 --------------------------------------------------------------*/
 
-.contact-about {
+/* .contact-about {
   width: 200px;
-}
+} */
 
 .contact .contact-about h3 {
   font-size: 36px;
@@ -1164,8 +1164,6 @@ section {
 
 .contact .info-details {
   display: flex;
-  padding-left: 20px;
-  /* margin-left: 20px; */
 }
 
 .contact .info i {
@@ -1254,8 +1252,13 @@ section {
   background: #dd5a92;
 }
 
+.contact .info-phone {
+  margin-left: 15px;
+  display: flex;
+}
+
 .phone-div {
-  width: 150px;
+  width: 120px;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1274,6 +1277,10 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.contact .col-lg-3-col-md-4 {
+  height: 30px;
 }
 
 /*--------------------------------------------------------------
