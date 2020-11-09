@@ -571,6 +571,7 @@ section {
 
 .about .social-links {
   padding-top: 20px;
+  width: 190px;
 }
 
 .about-div {
@@ -1160,6 +1161,7 @@ section {
   color: #5a656e;
   display: flex;
   width: 100wv;
+  align-items: flex-end;
 }
 
 .contact .info-details {
