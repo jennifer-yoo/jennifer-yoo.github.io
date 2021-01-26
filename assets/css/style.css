@@ -1102,7 +1102,8 @@ section {
 
 .contact .social-links {
   padding-bottom: 20px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  padding-right: 500px;
 }
 
 .contact .social-links a {
